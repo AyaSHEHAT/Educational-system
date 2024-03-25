@@ -1,0 +1,26 @@
+﻿@model Department
+
+
+    <div class="alert alert-info">
+        <h1>@Model.DeptId ::
+       @Model.DeptName ::
+       @Model.Capacity</h1>
+    </div>
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>Course Name</th>
+            <th>Duration</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var item in Model.Courses)
+        {
+            <tr>
+                <td>@item.CrsName</td>
+                <td>@item.Duration</td>
+                <td>
+                    <a asp-controller="StudentCourses" asp-action="UpdateStudentDegrees" asp-route-deptId="@Model.DeptId" asp-route-crsId="@item.CrsId" class="btn btn-primary">add Students degrees</a>
+                </td>
+            </tr>
+        }
+    </table>
+

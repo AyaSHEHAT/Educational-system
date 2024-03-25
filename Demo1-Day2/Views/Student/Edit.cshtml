@@ -1,0 +1,24 @@
+﻿@model Student
+@{
+    var depts = ViewBag.Departments as List<Department>;
+    SelectList deptsList = new SelectList(depts, "DeptId", "DeptName", 200);
+}
+
+    <div class="container bg-gradient text-center p-5 m-5 ">
+        <form method="post">
+            <label asp-for="StudentId"></label>
+            <input asp-for="StudentId" readonly /><br />
+            <label asp-for="StudentName"></label>
+            <input asp-for="StudentName" /><br />
+            <label asp-for="Age"></label>
+            <input asp-for="Age" /><br />
+            <label asp-for="Email"></label>
+            <input asp-for="Email" /><br />
+            <label asp-for="DeptNo"></label>
+            <select asp-for="DeptNo" asp-items="deptsList">
+                <option>Select Department</option>
+            </select>
+            <input type="submit" value="Edit" class="btn btn-primary" />
+            <a asp-controller="student" asp-action="Index" class="btn btn-info">Back</a>
+        </form>
+    </div>

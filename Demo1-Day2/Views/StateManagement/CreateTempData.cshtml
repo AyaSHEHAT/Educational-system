@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "CreateTempData";
+}
+
+//this will read the data from the TempData and remove it from the TempData
+@TempData["id"]
+@TempData["name"]
+//to read the data from the TempData and keep it in the TempData we use Peek
+@TempData.Peek("id")
+@TempData.Peek("name")
+<h1>CreateTempData</h1>
+

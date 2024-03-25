@@ -1,0 +1,34 @@
+﻿@model Student
+@{
+    var depts = ViewBag.Departments as List<Department>;
+    SelectList deptsList = new SelectList(depts, "DeptId", "DeptName", 200);
+}
+    <div class="container bg-info text-center p-5 m-5 ">
+    <form method="post" enctype="multipart/form-data">
+            <label asp-for="StudentId"></label>
+			<input asp-for="StudentId" /><br />
+            <label asp-for="StudentName"></label>
+			<input asp-for="StudentName" /><br />
+            <label asp-for="Age"></label>
+            <input asp-for="Age" /><br />
+            <label asp-for="Email"></label>
+            <input asp-for="Email" /><br />
+            <label asp-for="DeptNo">Department</label>
+            <select asp-for="DeptNo" asp-items="deptsList">
+                <option >Select Department</option>
+            </select>
+            <br />
+        <input type="file" name="stdImg" />
+            <br />
+            <input type="submit" value="Create" class="btn btn-primary" />
+            <a asp-controller="student" asp-action="Index" class="btn btn-info">Back</a>
+        </form>
+    </div>
+    <div asp-validation-summary="All" class="alert alert-danger list-unstyled"></div>
+@section ValidationScripts{
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validationunobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+

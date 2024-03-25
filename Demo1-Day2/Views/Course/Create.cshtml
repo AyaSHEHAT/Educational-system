@@ -1,0 +1,28 @@
+﻿@model Course
+    <div class="bg-gradient text-center">
+        <form method="post">
+            <div class="form-control-lg">
+            <label asp-for="CrsId"></label>
+            <input asp-for="CrsId" asp-controller="course" asp-action="create"/>
+            </div>
+            <div class="form-control-lg">
+            <label asp-for="CrsName"></label>
+            <input asp-for="CrsName" asp-controller="course" asp-action="create" />
+            </div>
+            <div class="form-control-lg">
+                <label asp-for="Duration"></label>
+                <input asp-for="Duration" asp-controller="course" asp-action="create" />
+            </div>
+            <a class="btn btn-secondary" asp-action="Index" asp-controller="course">Back</a>
+            <input type="submit" class="btn btn-success" asp-action="create" asp-controller="course" />
+    </form>
+
+</div>
+        <div asp-validation-summary="All" class="alert alert-danger list-unstyled"></div>
+@section ValidationScripts{
+
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validationunobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+

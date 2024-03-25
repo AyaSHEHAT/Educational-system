@@ -1,0 +1,28 @@
+﻿ @model Department 
+@{
+    List<StudentCourse> stdCrs = ViewBag.LastDegrees as List<StudentCourse>;
+    var std = Model.Students.ToList();
+   
+}
+
+    <h2 class="text-center">Students</h2>
+    <form method="post">
+       
+        @for (int i = 0; i < Model.Students.Count; i++)
+        {
+            var student = std[i];
+            var degree = stdCrs[i];
+            <label> @student.StudentName </label>
+            <input type="number" name="stdDegree[@student.StudentId]" value="@degree.Degree" />
+            <br />
+        }
+        <input  type="submit" value="update" class="btn btn-success"/>
+        <a asp-controller="department" asp-action="Index" class="btn btn-info">Cancel</a>
+    </form>
+    <div asp-validation-summary="All" class="alert alert-danger list-unstyled"></div>
+@section ValidationScripts{
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validationunobtrusive/jquery.validate.unobtrusive.js"></script>
+}

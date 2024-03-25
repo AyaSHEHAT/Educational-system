@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo1-Day2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Demo1-Day2.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\images\\20.jpg",
+      "PackagePath": "staticwebassets\\images\\20.jpg"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\images\\21.jpg",
+      "PackagePath": "staticwebassets\\images\\21.jpg"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\images\\22.jpg",
+      "PackagePath": "staticwebassets\\images\\22.jpg"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\images\\30.jpg",
+      "PackagePath": "staticwebassets\\images\\30.jpg"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\images\\31.jpg",
+      "PackagePath": "staticwebassets\\images\\31.jpg"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\images\\32.jpg",
+      "PackagePath": "staticwebassets\\images\\32.jpg"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\js\\jquery-3.5.1.slim.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.5.1.slim.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\ITI-PD&BI\\C#\\MVC\\Day2\\MVC-Lab\\Demo1-Day2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Demo1-Day2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Demo1-Day2.props",
+      "PackagePath": "build\\Demo1-Day2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Demo1-Day2.props",
+      "PackagePath": "buildMultiTargeting\\Demo1-Day2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Demo1-Day2.props",
+      "PackagePath": "buildTransitive\\Demo1-Day2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

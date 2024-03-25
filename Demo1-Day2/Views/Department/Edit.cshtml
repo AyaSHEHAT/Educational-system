@@ -1,0 +1,16 @@
+﻿@model Department
+
+    <div class="container bg-gradient text-center p-5 m-5 ">
+        <form method="post">
+            <label asp-for="DeptId"></label>
+            <input asp-for="DeptId" readonly /><br />
+            <label asp-for="DeptName"></label>
+            <input asp-for="DeptName" /><br />
+            <label asp-for="Capacity"></label>
+            <input asp-for="Capacity" /><br />
+            <label asp-for="Status"></label>
+            <input asp-for="Status" /><br />
+            <input type="submit" value="Edit" class="btn btn-primary" />
+            <a asp-controller="department" asp-action="Index" class="btn btn-info">Back</a>
+        </form>
+    </div>

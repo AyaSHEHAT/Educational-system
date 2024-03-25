@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: wheat;
+}
+
+nav .title {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+nav .sub-title {
+    font-size: 10px;
+}
+
+nav {
+    background-color: rgb(241, 212, 158);
+    height: 5.25rem;
+    z-index: 1;
+}
+
+    nav ul {
+        list-style: none;
+        margin-right: auto;
+    }
+
+    nav li {
+        text-align: right;
+        display: inline-block;
+    }
+
+    nav .pages-link li a {
+        /* margin-left: 50px; */
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+        nav .pages-link li a:hover {
+            color: rgb(148, 117, 60);
+            text-decoration:underline;
+        }
+
+header {
+    min-height: 50vh;
+    background-image: url(../images/32.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(241, 212, 158);
+}
+
+    footer * li, a {
+        line-height: 40px;
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        list-style: none;
+        font-weight: lighter;
+    }
+
+    footer a:hover {
+        color: rgb(148, 117, 60);
+        text-decoration: none;
+    }
+
+.copyright {
+    font-size: 10px;
+}
+
+.footerheader {
+    font-family: cursive;
+    font-size: 25px;
+}

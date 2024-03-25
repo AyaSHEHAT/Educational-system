@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Department>
+
+
+
+    <h1 class="text-center">Departments list</h1>
+    <table class="table table-bordered table-hover m-3">
+    @if (User.IsInRole("Admin"))
+    { 
+        <a asp-controller="Department" asp-action="Create" class="btn btn-success">Create</a>
+     } 
+        <thead class="text-center">
+            <tr>
+                <th>Dept ID</th>
+                <th>Department Name</th>
+                <th>Capacity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count()==0)
+            {
+                <tr>
+                    <td colspan="4">No Students Exists</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.DeptId</td>
+                        <td>@item.DeptName</td>
+                        <td>@item.Capacity</td>
+                        
+                        <td>
+                            <a asp-controller="department" asp-action="Details" asp-route-id="@item.DeptId" class="btn btn-info">Details</a>
+                            <a asp-controller="department" asp-action="Edit" asp-route-id="@item.DeptId" class="btn btn-primary">Edit</a>
+                            <a onclick="return confirm('Are you sure you want to delete this record?')" asp-controller="department" asp-action="Delete" asp-route-id="@item.DeptId" class="btn btn-danger">Delete</a>
+                            <a asp-controller="DeptCourse" asp-action="ShowCoursesByDept" asp-route-id="@item.DeptId" class="btn btn-secondary">Courses in @item.DeptName</a>
+                            <a asp-controller="DeptCourse" asp-action="ManageDeptCourses" asp-route-id="@item.DeptId" class="btn btn-warning">change Department Courses</a>
+                        </td>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table>
+    
+
+
