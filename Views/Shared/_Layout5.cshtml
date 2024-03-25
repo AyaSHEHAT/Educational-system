@@ -1,0 +1,153 @@
+﻿
+@{
+    ViewData["Title"] = "_Layout5";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light mb-0 pb-0 text-center fixed-top">
+        <div class="container d-inline-flex text-center">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="pages-link" style="list-style: none; display: inline-flex;">
+                    <li class="nav-item">
+                        <a asp-controller="Department" asp-action="Index" class="nav-link">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Student" asp-action="Index" class="nav-link">Students</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a asp-controller="Course" asp-action="Index" class="nav-link">Courses</a>
+                    </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                        <a asp-controller="Account" asp-action="Logout" class="nav-link">Logout @User.Identity.Name</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a asp-controller="Account" asp-action="Login" class="nav-link">Login</a>
+                         </li>
+                        <li class="nav-item">
+                            <a asp-controller="Account" asp-action="Register" class="nav-link">Register</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <div class="title text-uppercase text-black font-weight-light m-1 p-1">lindsay</div>
+            <div class="sub-title text-uppercase font-weight-bold text-black mt-3 pt-2 m-0 p-0"> stu<br>dio </div>
+            <div class="title text-uppercase text-black font-weight-light m-1 p-1"> scholz</div>
+
+        </div> <!-- container -->
+
+    </nav>
+    <header>
+    </header>
+   
+    <section>
+        <div class="container m-5 ps-5 " style="margin-left:9rem !important;">
+            
+                @* <div class="col-3"></div> *@
+                @RenderBody()
+                @RenderSection("ValidationScripts",false)
+        </div>
+    </section>
+    <section>
+        <div class="container m-5 p-5">
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia voluptate temporibus eius quo corporis maxime debitis architecto dolore sit nam, dolorem natus maiores officiis. Ducimus veniam facilis modi eius sunt, culpa rerum sint nulla aliquid aut doloremque quod, nostrum quasi repellat voluptate ratione repudiandae. Fuga, exercitationem soluta! Inventore incidunt libero magni, a nostrum, perferendis, animi esse modi hic maiores ratione cumque illum beatae quasi doloribus magnam natus repellat aut? Sunt libero maxime rem voluptate praesentium voluptates voluptatibus expedita impedit, corporis nam ipsa eaque. Ipsum voluptas, quis neque fugit dolorem inventore aliquam itaque, nesciunt, explicabo asperiores laudantium reiciendis rerum. Quam?
+                    </p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <img src="/images/31.jpg" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer  p-5" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 text-uppercase group ">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">WORK</a></li>
+                    </ul>
+                </div> <!-- c1 -->
+
+                <div class="col-1 text-uppercase group ">
+                    <ul>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">RESOURES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div> <!-- c2 -->
+
+                <div class="col-1 text-uppercase group ">
+                    <ul>
+                        <li><a href="#">INSTGRAM</a></li>
+                        <li><a href="#">PINTEREST</a></li>
+                        <li><a href="#">FACEBOOK</a></li>
+                    </ul>
+                </div> <!-- c3 -->
+                <div class="col-1"></div>
+                <div class="col-4 text-center mt-4 pt-4">
+                    <!-- هنكتب هنا الشعار  -->
+                    <i class="fa fa-couch fa-8x"></i>
+                    <p class="copyright ">&copy; 2017-2023 Lindsay Scholz Studio LLC.Privacy.Terms & Conditions</p>
+                </div> <!-- 5cols -->
+
+                <div class="col-4">
+                    <h2 class="text-black-50 footerheader">20+ business tools for you</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias assumenda voluptatem dolorem tempore quia nemo?</p>
+                    <a href="#" class="text-uppercase ml-5 pl-5">get the guide <i class="fa fa-arrow-right "></i></a>
+                </div>
+            </div> <!-- row -->
+
+        </div>
+    </footer>
+
+    <script src="/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Course>
+
+    <h1 class="text-center">Courses list</h1>
+    <table class="table table-bordered table-hover m-3">
+        <a asp-controller="course" asp-action="create" class="btn btn-success">Create</a>
+        <thead>
+            <tr>
+                <th>Course ID</th>
+                <th>Course Name</th>
+                <th>Duration</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count()==0)
+            {
+                <tr>
+                    <td colspan="4">No courses Exist</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CrsId</td>
+                        <td>@item.CrsName</td>
+                        <td>@item.Duration</td>
+                        <td>
+                            <a onclick="return confirm('Are you sure you want to delete this record?')" asp-controller="course" asp-action="Delete" asp-route-id="@item.CrsId" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table>
+

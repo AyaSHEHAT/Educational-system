@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Student>
+
+
+    <h1 class="text-center">Students list</h1>
+    <table class="table table-bordered table-hover m-3">
+        <a asp-controller="student" asp-action="Create" class="btn btn-success">Create</a>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Student Age</th>
+                <th>Student Email</th>
+                <th>Student Department</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count()==0)
+            {
+                <tr>
+                    <td colspan="6">No Students Exists</td>
+                </tr>
+            }
+            else
+            {
+                foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.StudentId</td>
+                        <td>@item.StudentName</td>
+                        <td>@item.Age</td>
+                        <td>@item.Email</td>
+                        <td>@item.DeptNo</td>
+                        <td>
+                            <a asp-controller="Student" asp-action="edit" class="btn btn-primary" asp-route-id="@item.StudentId">Edit</a>
+                            <a onclick="return confirm('Are you sure you want to delete this record?')" asp-controller="student" asp-action="Delete" asp-route-id="@item.StudentId" class="btn btn-danger">Delete</a>
+
+                        </td>
+                    </tr>
+                
+                }
+            }
+        </tbody>
+    </table>
+

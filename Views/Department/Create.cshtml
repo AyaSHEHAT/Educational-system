@@ -1,0 +1,22 @@
+﻿@model Department
+
+    <div class="container bg-info text-center p-5 m-5 ">
+        <form method="post">
+            <label asp-for="DeptId"></label>
+            <input asp-for="DeptId" /><br />
+            <label asp-for="DeptName"></label>
+            <input asp-for="DeptName" /><br />
+            <label asp-for="Capacity"></label>
+            <input asp-for="Capacity" /><br />
+            <input type="submit" value="Create" class="btn btn-primary" />
+            <a asp-controller="department" asp-action="Index" class="btn btn-info">Back</a>
+        </form>
+    </div>
+    <div asp-validation-summary="All" class="alert alert-danger list-unstyled"></div>
+    @section ValidationScripts{
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validationunobtrusive/jquery.validate.unobtrusive.js"></script>
+    }
+

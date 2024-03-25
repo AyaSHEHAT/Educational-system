@@ -1,0 +1,24 @@
+﻿
+@{
+     Department dept = ViewBag.Dept as Department; 
+     List<Course> notInDept = ViewBag.NotInDept as List<Course>;
+    SelectList coursesInDept = new SelectList(dept.Courses, "CrsId", "CrsName");
+    SelectList coursesNotInDept = new SelectList(notInDept, "CrsId", "CrsName");
+}
+        <h2>Add Course</h2>
+        <form method="post">
+            <div class="d-flex">
+                <div>
+                <h3>select to remove</h3>
+                <input type="hidden" name="deptId" value="@dept.DeptId" />
+                <select name="crsId" multiple name="coursesToRemove" asp-items="coursesInDept"></select>
+                </div>
+                <div>
+                <h3>Select to add</h3>
+                <select name="crsId" multiple name="coursesToAdd" asp-items="coursesNotInDept"></select>
+                </div>
+            </div>
+                   
+            <input type="submit" value="Change" class="form-control"/>
+        </form>
+
